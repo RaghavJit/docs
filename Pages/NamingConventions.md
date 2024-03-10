@@ -1,6 +1,6 @@
 # Naming Conventions
 
-This file contains the rules for naming varibles, files, tables, hooks, endpoints and functions etc. These conventions must be abided to strictly so the codebase remains easy to work with.
+This file contains the rules for naming variables, files, tables, hooks, endpoints and functions etc. These conventions must be abided to strictly so the codebase remains easy to work with.
 
 ## Naming Variables
 
@@ -9,12 +9,12 @@ This file contains the rules for naming varibles, files, tables, hooks, endpoint
 GLOBAL_VARIABLE
 ```
 
-**Environment variables**: Names just like global variables but sould start with 'ENV_'.
+**Environment variables**: Names just like global variables but should start with 'ENV_'.
 ```
 ENV_VARIABLE_NAME
 ```
 
-**Local varibles**: Should be named in pascal case.
+**Local variables**: Should be named in pascal case.
 ```
 LocalVariable
 ```
@@ -24,7 +24,7 @@ LocalVariable
 sampleFunction()
 ```
 
-**Event handling fucntions**: Should be named just like regular funtions but name must begin with 'handle'.
+**Event handling functions**: Should be named just like regular functions but name must begin with 'handle'.
 ```
 handleClick()
 ```
@@ -39,7 +39,7 @@ handleClick()
 ComponentName
 ```
 
-**Pages**: Pagenames must follow lower snake case.
+**Pages**: Page names must follow lower snake case.
 ```
 user_profile
 ```

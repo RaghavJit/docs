@@ -12,7 +12,7 @@ condition1 && condition2
 () => {}
 ```
 
-**Code blocks**: A code block nested inside {}, <>, or tags must have a line above an below containing nothing but the continer symbol.
+**Code blocks**: A code block nested inside {}, <>, or tags must have a line above an below containing nothing but the container symbol.
 ```
 if (VariableName1 == VariableName2)
 {                               // this line contains only '{'
@@ -34,7 +34,7 @@ const VariableName3 = 'huehue';
 ...
 ```
 
-**Managing blocks together**: If one code block is to be written after another they must be saprated by two (2) empty lines.
+**Managing blocks together**: If one code block is to be written after another they must be separated by two (2) empty lines.
 ```
 <div className="SidebarContainer">
     <MainSidebar filterByTag={filterByTag}/> 
@@ -54,8 +54,8 @@ name: "RaghavJit",
 ```
 
 **Imports**: 
-1. All first import statement must be in the first line of the file there must be no emply lines above the first import line. 
-1. Similar imports must be grouped together and sparated from other types with a single empty line.
+1. All first import statement must be in the first line of the file there must be no empty lines above the first import line. 
+1. Similar imports must be grouped together and separated from other types with a single empty line.
 ```
 import {useState, useEffect} from 'react'; //importing inbuilt features
 
@@ -67,18 +67,18 @@ import "../styles/GlobalStyles.css" //importing style sheets
 ```
 
 
-## Identation
+## Indentation
 
-1. One tab corrusponds to 4 spaces, don't use spaces when providing identation use Tab instead.
-2. Every child block must be one (1) identation level deeper then the parent.
-3. If a block is not contained in a parent it must not have any identation.
+1. One tab corresponds to 4 spaces, don't use spaces when providing indentation use Tab instead.
+2. Every child block must be one (1) indentation level deeper then the parent.
+3. If a block is not contained in a parent it must not have any indentation.
 
 
 ## JSON-objects
 
 1. JSON objects must be named like regular variables and should follow either local variable convention or global variable convention depending on their use. 
 1. However the attributes of the JSON object must always be in 'snake_case'
-1. Every nested attribute must be a one (1) identation level deeper than the parent. (see address attribute)
+1. Every nested attribute must be a one (1) indentation level deeper than the parent. (see address attribute)
 1. Lists in JSON objects must be one line (see hobbies attribute)
 1. It must follow the spacing scheme for commas and colons as specified above.
 1. String attribute must be enclosed in "", **using '' or `` is NOT allowed**.
@@ -102,8 +102,8 @@ import "../styles/GlobalStyles.css" //importing style sheets
 ## Components
 
 1. All components must be imported together (as specified in Spacing/Imports above)
-1. While passing props to the component, one prop must take one line, one identation deeper that component.
-1. There must be empty line above and below, if the component is not eclosed in a map or filter function.
+1. While passing props to the component, one prop must take one line, one indentation deeper that component.
+1. There must be empty line above and below, if the component is not enclosed in a map or filter function.
 ```
 
 <GatsbyImage 
@@ -116,7 +116,7 @@ import "../styles/GlobalStyles.css" //importing style sheets
 
 ## Map and Filter
 
-1. Always specify the format of the object or array that is being mapped in a comment above the map fucntion.
+1. Always specify the format of the object or array that is being mapped in a comment above the map function.
 1. Leave one line above and below this block
 ```
 ...
@@ -152,7 +152,7 @@ import "../styles/GlobalStyles.css" //importing style sheets
 ```
 
 
-## Delaring Hooks and Functions
+## Declaring Hooks and Functions
 
 1. All the useState hooks must be written together with empty line above and below the group just like local variables are written.
 ```
