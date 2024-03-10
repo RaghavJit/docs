@@ -52,5 +52,5 @@ user_profile
     home_address: "planet earth"
 }
 ```
-check out json objects conventions (here)[./CodingConventions.md#JSON-objects]
+check out json objects conventions [here](./CodingConventions.md#JSON-objects)
 
